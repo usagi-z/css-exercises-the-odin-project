@@ -23,7 +23,12 @@
       {
         devShells.default = pkgs.mkShell {
           inherit nativeBuildInputs buildInputs;
-          packages = with pkgs; [ superhtml vscode-langservers-extracted ];
+          packages = with pkgs; [
+            superhtml
+            vscode-langservers-extracted
+            # nodejs
+            live-server
+          ];
         };
       }
     );

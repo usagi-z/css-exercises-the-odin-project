@@ -36,7 +36,7 @@ img {
 
 .card {
   align-items: center;
-  flex: 1 1 200px;
+  max-width: 200px;
 }
 
 /* do not edit this footer */

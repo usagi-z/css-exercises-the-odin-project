@@ -72,20 +72,22 @@ button.cancel {
   color: royalblue;
 }
 
-.modal-main, .top, .buttons {
+.container, .top, .buttons {
   display: flex;
   gap: 8px;
 }
 
-.modal-main {
+.container {
   flex-direction: column;
 }
 
 .top {
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .header {
-  font-weight: bold;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 18px;
 }

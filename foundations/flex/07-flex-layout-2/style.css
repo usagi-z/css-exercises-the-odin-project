@@ -33,8 +33,15 @@ body {
 
 
 
-body {
+
+
+
+
+.container, .cards, .header, .footer, .sidebar ul, body {
   display: flex;
+}
+
+body {
   flex-direction: column;
 }
 
@@ -51,14 +58,10 @@ ul {
   align-items: center;
 }
 
-.container, .cards, .header, .footer, .sidebar ul {
-  display: flex;
-}
-
 .cards {
   flex-wrap: wrap;
   padding: 48px;
-  gap: 24px;
+  gap: 32px;
 }
 
 .card {
